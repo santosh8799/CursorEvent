@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(blue,rgb(3, 233, 45));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+}
+h1{
+    font-size: 100px;
+    font-family: 'gilroy';
+    color: #fff;
+    background-image: url("https://plus.unsplash.com/premium_photo-1675237625141-0bfadb4d6836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMDV8fHxlbnwwfHx8fHw%3D");
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
